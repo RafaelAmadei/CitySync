@@ -1,0 +1,2508 @@
+{
+  "info": {
+    "_postman_id": "fe5fb974-97aa-4292-affd-00782a81d39a",
+    "name": "Projeto Integrador - CitySync",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59073620",
+    "_collection_link": "https://go.postman.co/collection/59073620-fe5fb974-97aa-4292-affd-00782a81d39a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Listar Usuários",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "usuarios"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Listar Usuários",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:54:20 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "212"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW2RF997hNnKJZvvak1J98XHXDxaQe5dbhP5FyRCQzVfvU3IeHsCZbfJSWV10HycikXI5-JYpKWtlPWk2SV3F8li8tEL-yLVIhyl7vG4dOasqZG3rZ0O3On4NvmjLpO-wftOL1gmhZtg5t-Et2a30kJS-a3IJSWwaZouEqzqB6XmKKuhxWNObyPDNJZM7uyO013yxl1rhHccOofsrUfUNdvCeEQk0f1DtuIX1OKt-CZu2y8WBgWZwMmN4JxT1Zm9z90UV3NezUhcLCsdsr_PDL-uCeqj7o3ARJWWzYk39ZJtfI9fyd3E_t6mXS_jOLMtTCxdGIXmdu567nqerzTX0pHEQr9JXMPQnV-vE-D_E2qKpwmaE9gTgmE9avbya3bQNyamkpmySAJT6MJ_TpDrNhb-v2Sc3m6R0Yh-znTfMPEFXrozMDPYm7VBhBpM9oBkioRmnlPCnpTo7UuaUjJGn_554TBiXURiSW9aNeriwhfheF29aIECvkOX7gtdJeLyUGSC3iFAfO3wJZFArKo0MGXxAik9khaBEiSlKBnCvD5HUVMPKc_0oaKP15xdwPJht2CtgpFzbFNZO5dg8aQtb4sM5WBk6cp8v2nJcx73kYGWrT_qe-smn7u-opfpQySs2AX4WB6tTcpEJ-OirVVkAwwzZLCJGSQW33FvnhMP46slfON3WO9zhh5X_L1IGi3qWxWWplCJieGOjGAFzNW_ry8O_YVFfHbCYa8VDc5fea-D3q3kqhG2XGoNd0d-UOcQoqEjgwO64hJxb0Xl2fpBUeOI6PdE7_e4u3iZy7NOfqkp11_70LDN_DYpiQliJfIAIpfaz8pdpw14xRG3os5HxokqU9pcUD1l1rZBDbchX5zfBAdO3ZOy4AeX70LHLNpUor-i6q94Wa99V-Q4gOQ6ZrKZaAO3bb1I3DBsxZFayucAV02r5VTPWAPYz-v2s92fsSOhgPME-bz1dCLrYXXXlGK0; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:50s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "b3e89730-a2f8-40e6-b7bb-945ccba506ef"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"email\": \"admin@citysync.com\",\n    \"id\": 2,\n    \"nome\": \"Administrador Teste\",\n    \"perfil\": \"ADMIN\",\n    \"telefone\": \"43988888888\"\n  },\n  {\n    \"email\": \"teste@citysync.com\",\n    \"id\": 3,\n    \"nome\": \"Usuario Teste\",\n    \"perfil\": \"USER\",\n    \"telefone\": \"43999999999\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Buscar Usuários",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios/3",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "usuarios",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cadastrar Usuários",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\": \"Usuario Teste\",\r\n    \"email\": \"novo@citysync.com\",\r\n    \"senha\": \"CitySync123\",\r\n    \"telefone\": \"43999999999\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "usuarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Usuários",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\": \"Usuario Teste Atualizado\",\r\n    \"email\": \"teste@citysync.com\",\r\n    \"senha\": \"CitySync123\",\r\n    \"telefone\": \"43999999999\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios/3",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "usuarios",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Excluir Usuários",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios/3",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "usuarios",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Ocorrências",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Ocorrência",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias",
+            "1"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Buscar Ocorrência",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/1",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "1"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:54:57 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "314"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW1IIG9gR7ql6XVIlv7rhQiMNAhhWjrMiw4iLnI_FQdKJr1bt6ALjYAnzk5WqvxIF-BYfBlIBVMhgBdUT9MxSAuekEXY_YqIGOcttfEAbfAH9C9BCOGCkj-8USdsMcl70iE5jsvsou7UX-ywH4Gn0PgrkXH31hf8RD5yuA1DmvMQDtML9AQ3MKj88AOzJlyjsbzSI_-vv9EgAR4XYDD92FClTdyo9vLC6nkg7VSf5-7pnO6cj10u7eQLIjPSLq2Ir8TQwKR5A3Pf4L_CiaS3NHfzP90IZMQdi8GDdScT2MmU_ScACqjplS46X7GdDebhTWGh9ySTU4CYKWzK9ehf32V2iBnS1KiNg_QOjzGwEPoOZh5vBCzECWDbAnZFinigrJ6DbR-HBTcoE6muLkuxHU0MJOzpX40BcH9nGdwtDTl8YEXq_6YDFe73MTdgI0Gz2xbYjhSlNHrpwPlYuJmL2YPhv0eS99Uox3T8J49IhxbdwaeYt9zqQBR6jg8bIbxvi1IFj4S3AM-2POwZRQjxH1rMPyAI-NB-5IphAhCdvAYTfPjZaPVvK-SVB1ZFKtim58VwBLmqkD-R8pcccaiH8uy9faRdZEMLW8mC3sXU6zAanS9YhVh8VXMgQyMhbgoLHo2aHAArYyS8TbTxqgxYkqs4bh0mifC1LoQ4Saifb5g988rPIaDSZYLM1Ze-XNPrxwQ9A32XBDL0EMaPLqddN_Yg8jIz5XOsa-OnRNvyA27Ofcwo5gINOwFzTZ6LX5naNc2qbTAX0tICa6OZcHqkQ12i_7UeRioKiQBhxUNusSyLWYQZhKcUTyGgoNxXMpT5OkTWz1Ed5M9gp7UBANBSRsINxDGKNBVlkVQLBTzA7rJvsVjn_82MR7gABzUaeMPH6ATdMXedAEpvuCb_IBgrgJ9zAHKZXuHKu0WgyL8iVobOubwThaGdV9kUkF5sWsIPWYhHYnTfw3W_LXmV05y8ucMd; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:12s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "f8240e51-614f-4ee5-97b2-c1b2f9495292"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"dataCriacao\": \"2026-11-23T20:27:12.174729\",\n  \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n  \"id\": 1,\n  \"localizacao\": \"Rua Central\",\n  \"status\": \"EM_ANDAMENTO\",\n  \"titulo\": \"Buraco na Rua Central\",\n  \"usuario\": {\n    \"email\": \"admin@citysync.com\",\n    \"id\": 2,\n    \"nome\": \"Administrador Teste\",\n    \"perfil\": \"ADMIN\",\n    \"telefone\": \"43988888888\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Cadastrar Ocorrência",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"titulo\": \"Buraco na Rua Central\",\r\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\r\n    \"localizacao\": \"Rua Central\",\r\n    \"status\": \"ABERTA\",\r\n    \"usuario\": {\r\n        \"id\": 2\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Cadastrar Ocorrência",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"titulo\": \"Buraco na Rua Central\",\r\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\r\n    \"localizacao\": \"Rua Central\",\r\n    \"status\": \"ABERTA\",\r\n    \"usuario\": {\r\n        \"id\": 2\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:55:09 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "268"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "key": "Expires",
+              "value": "0"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:44s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "70f1393b-c6cb-4430-9b9a-27d0bd1b4cb1"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"dataCriacao\": \"2026-11-23T22:55:09.204717107\",\n  \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n  \"id\": 2,\n  \"localizacao\": \"Rua Central\",\n  \"status\": \"ABERTA\",\n  \"titulo\": \"Buraco na Rua Central\",\n  \"usuario\": {\n    \"email\": null,\n    \"id\": 2,\n    \"nome\": null,\n    \"perfil\": \"USER\",\n    \"telefone\": null\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Atualizar Ocorrência",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"titulo\": \"Buraco na Rua Central\",\r\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\r\n    \"localizacao\": \"Rua Central\",\r\n    \"status\": \"EM_ANDAMENTO\",\r\n    \"usuario\": {\r\n        \"id\": 2\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias",
+            "1"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Atualizar Ocorrência",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"titulo\": \"Buraco na Rua Central\",\r\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\r\n    \"localizacao\": \"Rua Central\",\r\n    \"status\": \"EM_ANDAMENTO\",\r\n    \"usuario\": {\r\n        \"id\": 2\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/1",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "1"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:55:18 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "314"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "key": "Expires",
+              "value": "0"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:23s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": "1500"
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": "1496"
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "4"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": "0"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "34f57138-b9b6-4a1e-a181-c984e809fc0d"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"dataCriacao\": \"2026-11-23T20:27:12.174729\",\n  \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n  \"id\": 1,\n  \"localizacao\": \"Rua Central\",\n  \"status\": \"EM_ANDAMENTO\",\n  \"titulo\": \"Buraco na Rua Central\",\n  \"usuario\": {\n    \"email\": \"admin@citysync.com\",\n    \"id\": 2,\n    \"nome\": \"Administrador Teste\",\n    \"perfil\": \"ADMIN\",\n    \"telefone\": \"43988888888\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Excluir Ocorrência",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias",
+            "1"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Excluir Ocorrência",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/3",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "3"
+              ]
+            }
+          },
+          "status": "No Content",
+          "code": 204,
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 23:04:01 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW34Tf6x0XlDREzi4X74dsWtjTAqXVASDZd8NB0maeACd97qqwww5AuAzNJETYXFRrDn9J2lWjqz-Mv2QtlIXygK_P8WnakKRC6L9TJGQhiChOZqnSfw17q_MBgrZh80qODstpAWAK0_R3493XoZbiL28et8HkmYkz8o2x5qV0pa33NGFZety4AcV2ryA3ZOcRVubU_Len_q3BripQZjpil3I9x1IJkLuclV4V1iKWFtUY-vRiCRnHqb4UEwbEOGv-ouzBg8v_sLs279S46rxbgQElBRRN2NX-6wBGJK-G3gf3YXFeE7LwU3k-z7ZYzZewUO5QMNAct-obI-T0VAxCR7eio0CpMxKJ6zlnMQW8oOYLmsXihMIKiUjm1egyrI-mcyAwAJXjWdQjGma21M7el4SKDapu7N2qeSW7vYXjqIpmI9X9vky6nd5sEwDPiT9r9qmU_kRI-JFLGkGO5Q8wlXBAFI7WPfEIcZ5T_27U5jWaF_PcBoYC3N1NptwkFZYiaBQCaF90uBdnc13uKdkRyZ950qzA53kMq09nGxRVPwK6yjNy_5fsHjJMk4yv94bSnvmbO_uQSE0PslrkbfiG-5bL42yQuj6Wb2YNq48oet9me5MeUZI6MdaMj2GUX4cN7lhhWEx28T2HfxNE1Vk-oGZeZYRO3jeq-810lY05coTRXomfHUlVvpH93_EnoWdD9tNWeThWyjJqOB0gWqtoHfPOTnPAcilv1lBwSHpEsuP5Iwh-SnD2S9TaR2LDiELXXHOmWC4VIgYa8ds0qLg-zM9q1SjbRtTBLFf388oIfFblhY8HAsQ-w9OTTgwYlT5ZjNvI3udcqVKG8yWy8NXbigCbDM--syx78LPLLGYforFVvnJpAhonQlUciAAzxZWjLoi85bCvgYWxaN6ASjS283MGTbexK-7FyiMv135opLi7nat5VqHYtl6uk0Fkh7gr5xuU7LR3LVTFkbKLhyQB1i; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:44s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "3a8b02e4-1477-4664-91ae-8ca9ad85d0ef"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Buscar por Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/status/EM_ANDAMENTO",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias",
+            "status",
+            "EM_ANDAMENTO"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Buscar por Status",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/status/EM_ANDAMENTO",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "status",
+                "EM_ANDAMENTO"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:55:53 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "316"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW34cjgr10rcTqwfdmddzu8BkKz0bS5Vuubn5F69bmOXS5r9FV_2_yLUiyiX8wQfcFh81eGDamMOcx6TqNmhQElkG2e9kznb0CDhjKZ0yXPThM1tG8MnWBMaKmxo4Wg_80Y1UlY9it3T31IBCwqoyM0ZhOkTByUEmv28u5GniaKxod54AUgGSKKJj86o_NIAR2MKZ_Cul8AxlVnxNbUeoidtQRC0oZ72gUPjpAzX-l_JfITD0bAEv41pk7YLLnCFjAYTULN5RsDz5Ljke2U9kwXLRNTnUks0N-c5G5lcMfVBYKX1euetTm6GrQJ-3BNTYPmbETlrhZRxwzfakoxSaVq8SRAdzxFoy0P9_K-Uk1bjMUiwb0SaPiaAnQYj6Q75GPDeGs1m3wAf2E7C93tK4aeDsAGKhIcJMIsS4KLkbR5CCrO5eQdbaOrrWoqkl_tMF8XCpybL4vcpnP6zpTvLSRw26xXR-9T07BvKqseqDfHdpk89MiX8Dn9Qosgx39ndyVQxx-w3ASVuN81BlS3vriWaYz4DJlkAhc57Dme9X0Wdzy9auaA0Spvq-ycydWjzQP2wHllFcvQOrevzK6ok_YJJP-8zV0sNf4_Hkk_VWfqJcTHHEeizVUTxVAKVVqnfvMu5mwTHbZQ2duGgTFuDCWinHq-sHcJj_xnDEy0T1hGXZgOg5GAwgm8zpP0zYNnbRvXOOE2EPrwb26QOZro1SVBTvW4aUTE57-YbMpvC0q0feJBxImu-Eh5xY-brq_JWOMrN2HxrxBZsk5IyJW3rr1fjrVYL-BY6TnK5UT_IhhmFNp21GOKs4epywKU1RXK_TF1CCtJgpjaNOUMqkHaitEf8UavWsaS0BUz_-jbzvWzPg0KzcLQM40U4i-YvimjAaT-KwcDnuz-y4O1UthPeDdt1-CnQ2rwzv8jCA7TfjX80B5vrhgRoVRUvqqRv2qAwyEcVsAu0_E_8O4ZkPS1cPk-r; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:51s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "cf1043a8-f4ab-4607-bdd9-da7fed4957ac"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"dataCriacao\": \"2026-11-23T20:27:12.174729\",\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n    \"id\": 1,\n    \"localizacao\": \"Rua Central\",\n    \"status\": \"EM_ANDAMENTO\",\n    \"titulo\": \"Buraco na Rua Central\",\n    \"usuario\": {\n      \"email\": \"admin@citysync.com\",\n      \"id\": 2,\n      \"nome\": \"Administrador Teste\",\n      \"perfil\": \"ADMIN\",\n      \"telefone\": \"43988888888\"\n    }\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Buscar por Usuário",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/usuario/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "ocorrencias",
+            "usuario",
+            "2"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Buscar por Usuário",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/usuario/2",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "usuario",
+                "2"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:55:56 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "625"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "key": "Expires",
+              "value": "0"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:8s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "40f65bbd-2c50-42e7-8ada-194c165199bd"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"dataCriacao\": \"2026-11-23T20:27:12.174729\",\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n    \"id\": 1,\n    \"localizacao\": \"Rua Central\",\n    \"status\": \"EM_ANDAMENTO\",\n    \"titulo\": \"Buraco na Rua Central\",\n    \"usuario\": {\n      \"email\": \"admin@citysync.com\",\n      \"id\": 2,\n      \"nome\": \"Administrador Teste\",\n      \"perfil\": \"ADMIN\",\n      \"telefone\": \"43988888888\"\n    }\n  },\n  {\n    \"dataCriacao\": \"2026-11-23T22:55:09.204717\",\n    \"descricao\": \"Buraco grande causando risco aos motoristas.\",\n    \"id\": 2,\n    \"localizacao\": \"Rua Central\",\n    \"status\": \"ABERTA\",\n    \"titulo\": \"Buraco na Rua Central\",\n    \"usuario\": {\n      \"email\": \"admin@citysync.com\",\n      \"id\": 2,\n      \"nome\": \"Administrador Teste\",\n      \"perfil\": \"ADMIN\",\n      \"telefone\": \"43988888888\"\n    }\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Listar Comentários",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/comentarios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "comentarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Comentários",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/comentarios/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "comentarios",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cadastrar Comentários",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"texto\": \"Este problema precisa ser resolvido.\",\r\n    \"usuario\": {\r\n        \"id\": 3\r\n    },\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/comentarios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "comentarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Comentário",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"texto\": \"A comunidade está acompanhando a situação.\",\r\n    \"usuario\": {\r\n        \"id\": 3\r\n    },\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/comentarios/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "comentarios",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Excluir Comentário",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/comentarios/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "comentarios",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Apoios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "apoios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Apoios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "apoios",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cadastrar Apoios",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"usuario\": {\r\n        \"id\": 3\r\n    },\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "apoios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Apoios",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"usuario\": {\r\n        \"id\": 3\r\n    },\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "apoios",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Excluir Apoios",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "apoios",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Fotos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/fotos",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "fotos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Fotos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/fotos/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "fotos",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cadastrar Fotos",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"caminhoImagem\": \"https://citysync.com/imagens/buraco-rua.jpg\",\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/fotos",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "fotos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Fotos",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"caminhoImagem\": \"https://citysync.com/imagens/buraco-atualizado.jpg\",\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/fotos/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "fotos",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Excluir Fotos",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/fotos/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "fotos",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Atualizações",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/atualizacoes",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "atualizacoes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar Atualizações",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/atualizacoes/1",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "atualizacoes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cadastrar Atualizações",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"status\": \"EM_ANDAMENTO\",\r\n    \"descricao\": \"A equipe responsável foi acionada.\",\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/atualizacoes",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "atualizacoes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar Atualizações",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"status\": \"EM_ANDAMENTO\",\r\n    \"descricao\": \"A equipe iniciou os reparos.\",\r\n    \"ocorrencia\": {\r\n        \"id\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/atualizacoes/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "atualizacoes",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Excluir Atualizações",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "admin@citysync.com",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "AdminCitySync123",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/atualizacoes/2",
+          "protocol": "https",
+          "host": [
+            "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "atualizacoes",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Teste - Acesso sem autenticação",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": [
+        {
+          "name": "Teste - Acesso sem autenticação",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "text",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 22:58:09 GMT"
+            },
+            {
+              "key": "Content-Length",
+              "value": "0"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW2S4bRVVv83IKeYOtp7JcYlFWibHfanDDWK6Snl2V6RMtqtpqjkVmrW4V3iIROtiDwtGaKXhKQ3o5X5CdWYjCRcRyJ8CuVJG1VIth7zjAuuP2pAJC2twwVyUVQoNlRuLp344nG-qL_fKIUfYpV_j76mJ4LPiTrtxXV_n0en09qpOiqlPaWfuFGmreIbOFHE4v6RH0lrh6M5AtwRf6ZsFLfnMNMNqhAdXCH7ChHQmzGyUqA2dqFJdrfueMLE6YfDK4sMl9XAppbuI8-fbLnmb19aLzq71zezCkBcHhoOLf3SnX5WFcvAJdPpO_BGoNnSzUPv0nQo7f8KLLwyimqGDZBsTR3FCJFYHBsE8xfTthP9dY39Umu4faIUdFN0t65EAvOCowuagZdDIfmZ9_Taxa-PAE5oQC2EkkNxQsPrw5tOOC8Fum1xbAIfGrSNUIbZ_jOggmbg3dS7Fc01cdrpkYwunMasztymlQo7QhNm51sYsEeFwf7uSMkEZdbwH83PyZYHNhAjBOEw9hAJw5Sp3E7PaH2XnOKcTM1uAVYPHoiV617nzIIJ5DjGHTY8uF3lhMKPfvck9gghmTu8gqQiliUxjxg2w-0cEaosaRovjA-o3sXGHSKVtvMTpwS2G61mVicD_rKmh08uaG8Q4vcnxJvfdZkfe3GYfmSMX7afqI8mV3K8VMCKMkn9h1MsX_pdm7XqnvdRrwyd7cnNvjeagBOMHYiVMq_IiTxZJHXUVXKAVn2esYHn-qLAtRrmVGxG5y78o1kM2jAHgwTKUy3InGOmKu4QAn017ZnUWJmgjKECv69ayKlTq6ah40lHIthLR16KywYT3IQQxS2hft44ra443ySVJSCy9UxRJEsPOoja70S5F4nDUt2McXqX6oGq8FLW-VCYmAtvLXRNLvwV48xeRTDyHMKrJgyRtuiZqkb7DoyfU5EUnNNACOPz6xYzRuzwKUJ5wM_ndmvmyq85-xeq; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "WWW-Authenticate",
+              "value": "Basic realm=\"Realm\", charset=\"UTF-8\""
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:10s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "e17bfbf9-a0ea-47d9-9590-59e51bcd4534"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": ""
+        }
+      ]
+    },
+    {
+      "name": "Teste - Acesso não autorizado",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": [
+        {
+          "name": "Teste - Acesso não autorizado",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios/3",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "usuarios",
+                "3"
+              ]
+            }
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 23:02:13 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "key": "Expires",
+              "value": "0"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:54s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "853f5428-e21c-4268-b609-e714a20857a6"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"timestamp\": \"2026-11-23T23:02:13.096Z\",\n  \"status\": 403,\n  \"error\": \"Forbidden\",\n  \"path\": \"/usuarios/3\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Teste - Ocorrência inexistente",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": [
+        {
+          "name": "Teste - Ocorrência inexistente",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/ocorrencias/9999",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "ocorrencias",
+                "9999"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 23:00:32 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW3p6RMUMtVfGdU-2FzG0Ak4Q2nNx4CjCPygyLACW7YFyaFfUZZfMrGe7I_OzCj8ZZNg3BcdYe1Rjj2znXMenSStNrw3giIy7AORsjv8iSXjjFGcnTeKguy11onBpyNiI6t8x-lTlKpaUt5TMGIha-1-CZlKed4gYY09TZ6QrxDeScqRGd3-O77til2Kagb5d6bkHmXv44vZmfRTwdJYl12gEJhsTa6ctXnhrbBavZXqIL-x3nT7xBpQ1IH8nHEvU961VySYdf3PrnxldbTUdolu-IGT2S_pohz0uXSlJpyf6pg_2ZWFPQ2elgqdRRgIwVe3SMff8DGIYXuBdkTIlAUIIDqmQoYHccl37lWbNPk7unBMW1ev9G5IautwJKdJu3eO419SzL2LTp9t371IAiRA0T5Rb9Cdqbdxepliu6xB-533CvnYXbUIRdWVbXJeE3tTNhJq-OAFO2zS68Pac2rTD1VRGbcLJ1Z1c1RjebnXpKnLXrI79iMsXJ-75N9qnhgXs2pWp-XpWVc8YqsCKugxSA_6kN27h_0RsUfRkVLkJ82tbtzyqq6D4I2iLnhtuEsT7PfT8Bmc8biTXIVUhuZ6a2XNEqm9vKjhViFBU_9TAcWij-yieOfZ1ZoGA-PHDVvw-4w4IitWC7JTGud36b6_G1oX7kyIweUVBYt1DwMBrJQZXfxPAMPGGWhehtxvRS-UMrOhyiNgxvGWM_9T2805i9yIb9Giyol-DWnmbKJKuiVotylvVax_ppxvsORdfbu8vjjPmlMLIJHb2bfBeh4Po7z5C3kKM74TPWFseGsT_6y6Nc_-RWbOQWN7U9vKvqhGCOCkW38YPfvC5GjsSPLgKQIEIUNtI_kwfNnEAH6OaxgjQNNkhoGtVR5wi42-bCapGEqnT5XkFFkJq-FaJ5uuVHxNj0eNszpKBcYq-18K1nyV16yddJI3OgTuB1vx8WCyqVDdgZLdfCTMIwBJo7O9; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:35s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "6e86ed11-632d-4a28-a6b0-99a8025b7ae6"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"erro\": \"Ocorrência não encontrada\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Teste - Dados inválidos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": [
+        {
+          "name": "Teste - Dados inválidos",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nome\": \"\",\r\n  \"email\": \"email-invalido\",\r\n  \"senha\": \"123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/usuarios",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 23:01:09 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW0Ihxxyh1MM7vZvTApNlxCSUw0a-uWRIkT9gT7wd1KEcZnq7Kk_C6caRGgFQqz6IkLdAJtEk_Ptkz2c9VUf3NTVtE58PQwSOqgw2TAZQzNOa0yrPwcPdP8CShytrXXlb0n4yiXhSn4LUYo6hm_fB3g0JzKf42qZximCMHKTR008eMjsNBwRw-79lQgYUz0Yxw9K6nR1An3ZIa7M_T5D2sRjTb0KbksoLeCyocMrvRhbL9KL53xFsvxsHRpJaYt_ueSLs4yUgVukb6jdI5zuS0wTDaKX-b75Y6wuwQH83ZkcYB-C5aplADyovmUQ8o6B1kRRcsqC6pVjEPFQJchN24u31LYkufAo6-MwBUb0CG2WBrQCsYkCX3n8hhMeFYrr0KyGYLo2NqYCgnhqeA4_6bY5whn1umU81aJYP0Z2Pg295-5gJ6LOWTbWleY8dixL1LSookTCuyniLc0re8CvHQ7fwu8m4ax1hjrFd8wGupJCp46iVtZWZafZVsIB-f57gJZGTqCDdUX2LDbD-jPmvPEBF0rLXJDbdE1Dam8NVR10yTzWkdLWUZUNrwmftx7s2tLn566i1TqaHzxq1rEmcHhXHE3T-92tpSJ4Zu9rZpttY1k2tcL8uwP9-P8zVe6d5d5cWoy1i5cc21V75xjIoXMbJ7yyVNhMNlAMLTGpTzrZFy0nakA1KOqPt3BSMr1bQNrFsAK3whRazTEgfD9_CsdrtT2vjruOlg5tIovgvagQhle4fR3sZwoDR8gGqpYPRxKW5tjLr9-r9Q1GehMnFjRX6GWOitkkN0IsZQLMUKJsJIE4et3Qqq7X65rEkKCw-KpyvE87BPrCPlmL4IRt_s7eD0wE1vjA7jVkqjc1Q1zDM0rF5TTgzon9kJTPu0Hd8ZWnv8SXByAc5yD52OscGT-R1_K6my0rcjxeotBc5Ciz4DAIDL2NVUS8K5P6NTrBjTS-iTsx7IaG12Cyf4p7LMmL; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "HttpRequestRatePerPort:1500/m"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "HttpRequestRatePerPort:1499"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:2s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "519ccf21-fd2c-46a8-9a72-d238dc6b7355"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"senha\": \"A senha deve ter pelo menos 8 caracteres.\",\n  \"nome\": \"O nome é obrigatório.\",\n  \"email\": \"Informe um e-mail válido.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Teste - Apoio duplicado",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": [
+        {
+          "name": "Teste - Apoio duplicado",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"usuario\": {\r\n    \"id\": 3\r\n  },\r\n  \"ocorrencia\": {\r\n    \"id\": 1\r\n  }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://zany-fortnight-7vwp7q4x6pwrc6q-8080.app.github.dev/apoios",
+              "protocol": "https",
+              "host": [
+                "zany-fortnight-7vwp7q4x6pwrc6q-8080",
+                "app",
+                "github",
+                "dev"
+              ],
+              "path": [
+                "apoios"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Mon, 23 Nov 2026 23:01:50 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache,no-store"
+            },
+            {
+              "key": "Expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": ".Tunnels.Relay.WebForwarding.Cookies=CfDJ8NJJuTEdEi5KqensronCVW0mmpeiGOPMnlahobEjInNHX81hn_Im-SOIjeBDd9ZKIVvZTw7cnU-1fJdhG_T7o4TOhJyBBdba7Wy0EzaxLs-K1qV0QKo56jkXPbJOlgjYqzmMNV8EgyPvL1G0wkEkF7TRXP8ZcEeK23coDNx-PfxwaCHcNqdEOV7N_cFonP4L5Cq8WhjhWCirhDdaVMlqc7BJxAhcbt74SMtfQOfuokbxVuRDQVEw80EiyCp5SGL_Gl4WqdksdJFmkV6qHCZnGi_G8Lmpskb0QNWuBJGMVKFL5QbmYWe8SZ5OeSXV2vNdXq5-ub0lVP_mvOZDBvuuusjA6vNduNc0AmkQn84ABrz5-LE2yBKQCIpnWjJ-bLcX_YzPvyLvTXavOjREkSvUPT4aVpZrd6925OzucJ4f0NiSwL_N1JE7xoQFH1k334Acm0x1xv6m8gBGAODYNOBpUSoiKY9UbAF8kEQJ5iCulp3LACGUXnSzbcbuoCZnV2pIERUSd6iH6hDjCC2TK3APJAdmDuFcXZPHWOzuYM-vZvCwDBg9INX_wvUfKofAwdwN64aDN12E6NY4wTgeaAvavlKIGuQq2lgjv7bVoBjNj1Nhx5uYkKiBh7Vki1YQRSrVdw-P3lsDEec-O3IQ2PhVPtnwbRVF-xBe9YS04QIhGh0OEGXdwxC4R6fST5ur0KjQgQOCGqq8L6CG_ebhQX9muQtjrscbE_X4RQsqn6GZHV1lwNHI5qVa91D2bOwCcMqVlx4pzn-2ud0Jy_zAMPZL6EPe-mk9WkL3mhErPbUsKV0W2Vk0zCdQKUCoc04djEHBQRP7ppAUQTzSiweoQJtjn47xCBIsxmRRxvpxLOIYN2WBmoP_FsOo7RdiPLMsrpLFLGrRQc50-IShpOSIu8UHTROgP1d-mtlzh8lIzuN4mERB_ZZQG18kozXMiWye2FMxHWmH4c4ZMPRALPWRsZQ-NIOdjdJFFRwFB1Hvp6WsMqGY; path=/; secure; samesite=none; Partitioned"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "RateLimit-Limit",
+              "value": "ClientConnectionsPerPort: max 1000"
+            },
+            {
+              "key": "RateLimit-Remaining",
+              "value": "ClientConnectionsPerPort:999"
+            },
+            {
+              "key": "RateLimit-Reset",
+              "value": "HttpRequestRatePerPort:53s"
+            },
+            {
+              "key": "X-Report-Abuse",
+              "value": "https://msrc.microsoft.com/report/abuse"
+            },
+            {
+              "key": "x-ms-ratelimit-limit",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-remaining",
+              "value": ""
+            },
+            {
+              "key": "x-ms-ratelimit-used",
+              "value": "1"
+            },
+            {
+              "key": "x-ms-ratelimit-reset",
+              "value": ""
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "0"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "vssaas-request-id",
+              "value": "19869141-8364-4c68-83d4-691fdd6aebb8"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "X-Served-By",
+              "value": "tunnels-prod-rel-use-v3-cluster"
+            },
+            {
+              "key": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "same-origin"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"erro\": \"Este usuário já apoiou esta ocorrência.\"\n}"
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": [
+      {
+        "key": "username",
+        "value": "teste@citysync.com",
+        "type": "string"
+      },
+      {
+        "key": "password",
+        "value": "CitySync123",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    }
+  ]
+}

@@ -3,6 +3,7 @@ package br.edu.unifio.citysync.servicos;
 
 import br.edu.unifio.citysync.entidades.Foto;
 import br.edu.unifio.citysync.repositorios.FotoRepositorio;
+import br.edu.unifio.citysync.excecoes.RecursoNaoEncontradoException;
 
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,9 @@ public class FotoService {
 
     public Foto buscarPorId(Integer id) {
         return fotoRepositorio.findById(id)
-                .orElseThrow(() -> new RuntimeException("Foto não encontrada"));
+                .orElseThrow(() -> new RecursoNaoEncontradoException(
+        "Foto não encontrada"
+));
     }
 
     public Foto salvar(Foto foto) {

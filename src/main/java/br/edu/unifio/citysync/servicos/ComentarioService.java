@@ -3,6 +3,7 @@ package br.edu.unifio.citysync.servicos;
 
 import br.edu.unifio.citysync.entidades.Comentario;
 import br.edu.unifio.citysync.repositorios.ComentarioRepositorio;
+import br.edu.unifio.citysync.excecoes.RecursoNaoEncontradoException;
 
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,9 @@ public class ComentarioService {
 
     public Comentario buscarPorId(Integer id) {
         return comentarioRepositorio.findById(id)
-                .orElseThrow(() -> new RuntimeException("Comentário não encontrado"));
+                .orElseThrow(() -> new RecursoNaoEncontradoException(
+        "Comentário não encontrado"
+));
     }
 
     public Comentario salvar(Comentario comentario) {

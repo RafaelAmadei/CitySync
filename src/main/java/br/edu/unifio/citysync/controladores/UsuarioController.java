@@ -1,9 +1,9 @@
-
 package br.edu.unifio.citysync.controladores;
 
 import br.edu.unifio.citysync.entidades.Usuario;
 import br.edu.unifio.citysync.servicos.UsuarioService;
 
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,13 +30,14 @@ public class UsuarioController {
     }
 
     @PostMapping
-    public Usuario cadastrar(@RequestBody Usuario usuario) {
+    public Usuario cadastrar(@Valid @RequestBody Usuario usuario) {
         return usuarioService.salvar(usuario);
     }
 
     @PutMapping("/{id}")
-    public Usuario atualizar(@PathVariable Integer id,
-                             @RequestBody Usuario dados) {
+    public Usuario atualizar(
+            @PathVariable Integer id,
+            @Valid @RequestBody Usuario dados) {
 
         Usuario usuario = usuarioService.buscarPorId(id);
 

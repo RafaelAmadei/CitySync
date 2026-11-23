@@ -45,4 +45,15 @@ public class OcorrenciaController {
         ocorrenciaService.excluir(id);
         return ResponseEntity.noContent().build();
     }
+
+@GetMapping("/status/{status}")
+public List<Ocorrencia> buscarPorStatus(@PathVariable String status) {
+    return ocorrenciaService.buscarPorStatus(status);
+}
+
+@GetMapping("/usuario/{usuarioId}")
+public List<Ocorrencia> buscarPorUsuario(@PathVariable Integer usuarioId) {
+    return ocorrenciaService.buscarPorUsuario(usuarioId);
+}
+
 }

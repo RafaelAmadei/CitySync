@@ -1,8 +1,8 @@
-
 package br.edu.unifio.citysync.servicos;
 
 import br.edu.unifio.citysync.entidades.Ocorrencia;
 import br.edu.unifio.citysync.repositorios.OcorrenciaRepositorio;
+import br.edu.unifio.citysync.excecoes.RecursoNaoEncontradoException;
 
 import org.springframework.stereotype.Service;
 
@@ -23,7 +23,7 @@ public class OcorrenciaService {
 
     public Ocorrencia buscarPorId(Integer id) {
         return ocorrenciaRepositorio.findById(id)
-                .orElseThrow(() -> new RuntimeException("Ocorrência não encontrada"));
+                .orElseThrow(() -> new RecursoNaoEncontradoException("Ocorrência não encontrada"));
     }
 
     public Ocorrencia salvar(Ocorrencia ocorrencia) {
@@ -45,4 +45,13 @@ public class OcorrenciaService {
         Ocorrencia ocorrencia = buscarPorId(id);
         ocorrenciaRepositorio.delete(ocorrencia);
     }
+
+public List<Ocorrencia> buscarPorStatus(String status) {
+    return ocorrenciaRepositorio.findByStatus(status);
+}
+
+public List<Ocorrencia> buscarPorUsuario(Integer usuarioId) {
+    return ocorrenciaRepositorio.findByUsuario_Id(usuarioId);
+}
+
 }

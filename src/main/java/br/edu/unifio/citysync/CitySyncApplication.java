@@ -1,13 +1,13 @@
-package br.edu.unifio.ecommerce;
+package br.edu.unifio.citysync;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommerceApplication {
+public class CitySyncApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EcommerceApplication.class, args);
+		SpringApplication.run(CitySyncApplication.class, args);
 	}
 
 }

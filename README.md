@@ -19,6 +19,8 @@ O CitySync é uma plataforma para registro e acompanhamento de problemas urbanos
 
 Os cidadãos podem registrar ocorrências, adicionar comentários, apoiar registros e acompanhar atualizações.
 
+**Objetivo:** Desenvolver um backend REST que permita aos cidadãos registrar, acompanhar e interagir com ocorrências urbanas, facilitando a comunicação e a participação da comunidade na identificação de problemas da cidade.
+
 ## Tecnologias utilizadas
 
 - Java 21
@@ -53,11 +55,11 @@ Os cidadãos podem registrar ocorrências, adicionar comentários, apoiar regist
 ## Como executar
 
 1. Configure o MySQL.
-2. Configure a variável de ambiente DB_PASSWORD.
+2. Configure a variável de ambiente `DB_PASSWORD`.
 3. Execute `./mvnw spring-boot:run`.
 
 ## Documentação
 
 - Documentação da API: `docs/documentacao-api.md`
 - Modelo de dados: `docs/modelo-dados.png`
-- Coleção Postman: `postman/projeto-integrador.postman_collection.json`
+- Coleção Postman: `postman/Projeto Integrador - CitySync.postman_collection.json`
